@@ -96,6 +96,13 @@ section {
     transition: all .3s ease-out;
 }
 
+/* CONTAINER */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
 /* GLOBAL MEDIA */
 
 img {
@@ -209,6 +216,13 @@ img {
     color: #3f3f3f;
 }
 
+.hero h3 {
+    font-size: 5vw;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #3f3f3f;
+}
+
 .herosub {
     display: grid;
     justify-content: left;
@@ -218,7 +232,7 @@ img {
 }
 
 .hero p {
-    font-size: 3vw;
+    font-size: 2vw;
     font-family: Arial, Helvetica, sans-serif;
     color: #3f3f3f;
 }
