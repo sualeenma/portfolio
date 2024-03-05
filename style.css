@@ -3,7 +3,7 @@
 
 /* VARIABLES */
 html {
-    --color-body: #eee8e4;
+    --color-body: #ffffff;
     --space-unit: 1em;
 }
 
@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    background-color: #f4efeb;
+    background-color: #ffffff;
     color: #090b08;
     margin: 0;
     font-family: 'Raleway', sans-serif;
@@ -349,7 +349,7 @@ img {
     grid-row-end: 12;
 }
 
-/* ZOOM HOVER */
+/* ZOOM HOVER
 
 .zoom-hover {
     margin: 0;
@@ -410,7 +410,7 @@ img {
 .zoom-hover li.hover img {
     -webkit-transform: scale(1.3) rotate(-3deg);
     transform: scale(1.3) rotate(-3deg);
-}
+} */
 
 
 /* Contact Section  */
@@ -479,13 +479,13 @@ img {
 }
 
 body {
-    background: #e8e7e5;
+    background: #ffffff;
 }
 
 
 .projects {
     --base-grid: 8px;
-    --colour-background: #fff;
+    --colour-background: #f1f1f1;
     --colour-background-undercard: #cbc5c4;
     --colour-background-folded: #f5f5f5;
     --colour-background-stripes: rgba(255, 255, 255, .5);
