@@ -5,7 +5,7 @@
 /* VARIABLES */
 html {
     --color-body: #ffffff;
-    --space-unit: 1em;
+    --space-unit: 0em;
 }
 
 /* GLOBALS */
@@ -163,7 +163,7 @@ img {
 /* LOGO */
 
 .site-logo {
-    padding: var(--space-unit);
+    padding: 1em;
 }
 
 /* SITE NAV */
@@ -182,7 +182,7 @@ img {
 
 .site-nav a {
     display: block;
-    padding: var(--space-unit);
+    padding: 1em;
     text-decoration: none;
     color: black;
     font-family: 'Raleway', sans-serif;
@@ -216,7 +216,7 @@ img {
     font-size: clamp(2em, 8vw, 7em);
     margin-bottom: 0;
     margin-top: 0;
-    color: #000000;
+    color: #d1b5d8;
     font-family: bitter, serif;
 }
 
@@ -506,7 +506,7 @@ main {
 }
 
 body {
-    background: rgb(243, 229, 224);
+    background: rgb(255, 255, 255);
 }
 
 
