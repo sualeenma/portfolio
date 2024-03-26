@@ -32,6 +32,10 @@ h2 {
     text-transform: uppercase;
 }
 
+h3 {
+    text-transform: uppercase;
+}
+
 h4 {
     font-size: .8em;
     font-weight: 500;
@@ -224,9 +228,12 @@ img {
 
 .hero h3 {
     font-size: 5vw;
+    font-size: clamp(4em, 13vw, 8em);
     margin-bottom: 0;
     margin-top: 0;
-    color: #3f3f3f;
+    color: #a8b3c9;
+    font-family: bitter;
+    padding-top: 0.7em;
 }
 
 .herosub {
@@ -239,8 +246,9 @@ img {
 .herosub p {
     font-family: Arial, Helvetica, sans-serif;
     color: #3f3f3f;
-    font-size: 2vw;
-    font-size: clamp(2em, 3vw, 3em);
+    font-size: 1vw;
+    font-size: clamp(1.5em, 2vw, 2.5em);
+    padding-bottom: 7em;
 }
 
 /* MAIN */
@@ -670,4 +678,95 @@ body {
 
 .mockups-img li {
     margin-bottom: 1em;
+}
+
+.scrolldown {
+    --color: rgb(162, 162, 162);
+    --sizeX: 30px;
+    --sizeY: 50px;
+    position: relative;
+    width: var(--sizeX);
+    height: var(--sizeY);
+    margin-left: var(sizeX / 2);
+    border: calc(var(--sizeX) / 10) solid var(--color);
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.scrolldown::before {
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: var(--color);
+    border-radius: 100%;
+    animation: scrolldown-anim 2s infinite;
+    box-sizing: border-box;
+    box-shadow: 0px -5px 3px 1px #ffffff66;
+}
+
+@keyframes scrolldown-anim {
+    0% {
+        opacity: 0;
+        height: 6px;
+    }
+
+    40% {
+        opacity: 1;
+        height: 10px;
+    }
+
+    80% {
+        transform: translate(0, 20px);
+        height: 10px;
+        opacity: 0;
+    }
+
+    100% {
+        height: 3px;
+        opacity: 0;
+    }
+}
+
+.chevrons {
+    padding: 6px 0 0 0;
+    margin-left: -3px;
+    margin-top: 48px;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chevrondown {
+    margin-top: -6px;
+    position: relative;
+    border: solid var(--color);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+}
+
+.chevrondown:nth-child(odd) {
+    animation: pulse 500ms ease infinite alternate;
+}
+
+.chevrondown:nth-child(even) {
+    animation: pulse 500ms ease infinite alternate 250ms;
+}
+
+@keyframes pulse {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.5;
+    }
 }
