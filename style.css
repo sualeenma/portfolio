@@ -164,6 +164,8 @@ img {
 
 .site-logo {
     padding: 1em;
+    font-size: 1.5em;
+    font-weight: 700;
 }
 
 /* SITE NAV */
@@ -173,7 +175,7 @@ img {
     margin: 0;
     position: relative;
     list-style: none;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .site-nav ul {
@@ -200,24 +202,24 @@ img {
     display: grid;
     justify-content: left;
     align-content: center;
-    /* padding: 0 4vw; */
 }
 
 .hero h1 {
-    font-size: 8vw;
-    font-size: clamp(4em, 15vw, 13em);
+    font-size: 5vw;
+    font-size: clamp(4em, 15vw, 10em);
+    margin-top: 0.5em;
     margin-bottom: 0;
-    font-family: bitter, serif;
-    color: #282828;
+    font-family: bitter;
+    color: #7b7b7b;
 }
 
 .hero h2 {
-    font-size: 7vw;
-    font-size: clamp(2em, 8vw, 7em);
+    font-size: 5vw;
+    font-size: clamp(4em, 13vw, 8em);
     margin-bottom: 0;
     margin-top: 0;
-    color: #d1b5d8;
-    font-family: bitter, serif;
+    color: #a8b3c9;
+    font-family: bitter;
 }
 
 .hero h3 {
@@ -231,13 +233,14 @@ img {
     display: grid;
     justify-content: left;
     align-content: center;
+    padding-bottom: 7em;
 }
 
 .herosub p {
     font-family: Arial, Helvetica, sans-serif;
     color: #3f3f3f;
     font-size: 2vw;
-    font-size: clamp(1em, 2vw, 2em);
+    font-size: clamp(2em, 3vw, 3em);
 }
 
 /* MAIN */
@@ -512,9 +515,9 @@ body {
 
 .projects {
     --base-grid: 8px;
-    --colour-background: rgb(231, 218, 213);
-    --colour-background-undercard: rgb(220, 205, 199);
-    --colour-background-folded: rgb(231, 218, 213);
+    --colour-background: rgb(228, 228, 228);
+    --colour-background-undercard: rgb(182, 182, 182);
+    --colour-background-folded: rgb(228, 228, 228);
     --colour-background-stripes: rgb(231, 218, 213);
     --colour-text: #6c6565;
     margin: calc(var(--base-grid)*2) auto calc(var(--base-grid)*5);
