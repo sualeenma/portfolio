@@ -1,6 +1,10 @@
 /* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,500,700');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900');
+@import url("https://use.typekit.net/dmf5nmt.css");
+@import url("https://use.typekit.net/dmf5nmt.css");
+
+
 
 /* VARIABLES */
 html {
@@ -23,18 +27,19 @@ body {
 
 h1 {
     font-size: 1.7em;
-    font-weight: 700;
-    line-height: 1.5em;
-    text-transform: uppercase;
+    font-weight: 800;
+    font-family: "beloved-script", sans-serif;
+    font-style: normal;
 }
 
 h2 {
-    text-transform: uppercase;
+    font-family: hoefler;
+    font-style: italic;
+    font-size: clamp(0.3em, 7svw, 3em);
+
 }
 
-h3 {
-    text-transform: uppercase;
-}
+h3 {}
 
 h4 {
     font-size: .8em;
@@ -49,6 +54,7 @@ h6 {
 
 p {
     max-width: 33em;
+    line-height: 1.5;
 }
 
 a {
@@ -64,13 +70,18 @@ section {
     padding: 0;
 }
 
+
 .title {
     display: flex;
     align-items: center;
     text-transform: uppercase;
     letter-spacing: 1px;
     padding-bottom: 1em;
+    font-size: clamp(1em, 8vw, 3em);
+    font-family: Histeagin;
 }
+
+
 
 .title-right {
     justify-content: flex-end;
@@ -170,6 +181,7 @@ img {
     padding: 1em;
     font-size: 1.5em;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 /* SITE NAV */
@@ -208,21 +220,29 @@ img {
     align-content: center;
 }
 
+.heromain-sub {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
 .hero h1 {
-    font-size: 5vw;
-    font-size: clamp(4em, 15vw, 10em);
-    margin-top: 0.5em;
+    font-size: clamp(4em, 13vw, 9em);
+    margin-top: 0.4em;
     margin-bottom: 0;
-    font-family: bitter;
-    color: #7b7b7b;
+    font-family: "Birthstone", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #363636;
+    font-style: bold;
 }
 
 .hero h2 {
     font-size: 5vw;
-    font-size: clamp(4em, 13vw, 8em);
+    font-size: clamp(4em, 15vw, 10em);
     margin-bottom: 0;
     margin-top: 0;
-    color: #a8b3c9;
+    color: #4f4f4f;
     font-family: bitter;
 }
 
@@ -230,10 +250,11 @@ img {
     font-size: 5vw;
     font-size: clamp(4em, 13vw, 8em);
     margin-bottom: 0;
-    margin-top: 0;
-    color: #a8b3c9;
-    font-family: bitter;
-    padding-top: 0.7em;
+    margin-top: 0.5em;
+    color: #252525;
+    font-family: hoefler;
+    padding-top: 0.4em;
+    justify-content: center;
 }
 
 .herosub {
@@ -245,9 +266,17 @@ img {
 
 .herosub p {
     font-family: Arial, Helvetica, sans-serif;
-    color: #3f3f3f;
+    color: #3d3d3d;
     font-size: 1vw;
     font-size: clamp(1.5em, 2vw, 2.5em);
+    padding-bottom: 7em;
+    justify-content: center;
+}
+
+.herosub-sub p {
+    color: #1c1c1c;
+    font-size: 1vw;
+    font-size: clamp(1em, 2vw, 1.2em);
     padding-bottom: 7em;
 }
 
@@ -523,7 +552,7 @@ body {
 
 .projects {
     --base-grid: 8px;
-    --colour-background: rgb(228, 228, 228);
+    --colour-background: rgb(207, 207, 207);
     --colour-background-undercard: rgb(182, 182, 182);
     --colour-background-folded: rgb(228, 228, 228);
     --colour-background-stripes: rgb(231, 218, 213);
@@ -678,10 +707,13 @@ body {
 
 .mockups-img li {
     margin-bottom: 1em;
+    margin-top: 1em;
 }
 
+/* SCROLLDOWN */
+
 .scrolldown {
-    --color: rgb(162, 162, 162);
+    --color: rgb(41, 41, 41);
     --sizeX: 30px;
     --sizeY: 50px;
     position: relative;
@@ -769,4 +801,73 @@ body {
     to {
         opacity: 0.5;
     }
+}
+
+
+/* SUBPAGE-IMAGEGRID */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.home-grid {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 7fr 5fr;
+    grid-template-rows: 3fr 1fr 2fr 2fr 1fr 3fr;
+}
+
+.home-grid li {
+    margin: 0;
+    padding: 0;
+}
+
+.home-grid li:nth-child(1) {
+    grid-row: 1 / 4;
+    grid-column: 1 / 2;
+}
+
+.home-grid li:nth-child(2) {
+    grid-row: 4 / 8;
+    grid-column: 1 / 2;
+}
+
+.home-grid li:nth-child(3) {
+    grid-row: 8 / 12;
+    grid-column: 1 / 2;
+}
+
+.home-grid li:nth-child(4) {
+    grid-row: 1 / 3;
+    grid-column: 2 / 3;
+}
+
+.home-grid li:nth-child(5) {
+    grid-row: 3 / 6;
+    grid-column: 2 / 3;
+}
+
+.home-grid li:nth-child(6) {
+    grid-row: 6 / 9;
+    grid-column: 2 / 3;
+}
+
+.home-grid li:nth-child(7) {
+    grid-row: 9 / 12;
+    grid-column: 2 / 3;
+}
+
+.home-grid img {
+    max-width: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title-right {
+    margin-top: 3em;
 }
