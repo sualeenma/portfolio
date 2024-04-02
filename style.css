@@ -88,10 +88,6 @@ section {
 
 
 
-.title-right {
-    justify-content: flex-end;
-}
-
 .line {
     width: 3em;
     height: 1px;
@@ -99,8 +95,12 @@ section {
     margin-right: 1em;
 }
 
-.line-right {
-    order: 2;
+.title-right {
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+.title-right .line {
     margin-right: 0;
     margin-left: 1em;
 }
@@ -267,8 +267,7 @@ img {
     display: grid;
     justify-content: left;
     align-content: center;
-    padding-bottom: 7em;
-    padding-left: 2.5em;
+    /* padding-left: 2.5em; */
 }
 
 .herosub p {
@@ -276,7 +275,7 @@ img {
     color: #3d3d3d;
     font-size: 1vw;
     font-size: clamp(1.5em, 2vw, 2.5em);
-    padding-bottom: 7em;
+    /* padding-bottom: 7em; */
     justify-content: center;
 }
 
@@ -720,7 +719,9 @@ main {
     border: calc(var(--sizeX) / 10) solid var(--color);
     border-radius: 50px;
     box-sizing: border-box;
-    margin-bottom: 16px;
+    margin-bottom: 6em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .scrolldown::before {
