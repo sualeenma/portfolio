@@ -39,12 +39,12 @@ h2 {
 
 }
 
-h3 {}
 
-h4 {
+
+/* h4 {
     font-family: hoefler;
     font-size: clamp(0.3em, 7svw, 3em);
-}
+} */
 
 h6 {
     font-weight: 500;
