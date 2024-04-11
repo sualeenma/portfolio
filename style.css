@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #ff8f8f;
     color: #000000;
     margin: 0;
     font-family: 'Raleway', sans-serif;
@@ -36,7 +36,10 @@ h2 {
     font-family: hoefler;
     font-style: italic;
     font-size: clamp(0.3em, 7svw, 3em);
+}
 
+.site-footer h4 {
+    color: rgb(255, 255, 255);
 }
 
 
@@ -57,7 +60,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
 }
 
 ul.mockups {
@@ -175,7 +178,7 @@ img {
     display: flex;
     justify-content: space-between;
     font-family: hoefler;
-    background-color: #ffffff91;
+    background-color: #ffc4c491;
 }
 
 /* LOGO */
@@ -204,7 +207,7 @@ img {
     display: block;
     padding: 1em;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
@@ -235,7 +238,7 @@ img {
     font-family: "Birthstone", cursive;
     font-weight: 400;
     font-style: normal;
-    color: #363636;
+    color: #ffffff;
     font-style: bold;
     justify-content: center;
 }
@@ -245,7 +248,7 @@ img {
     font-size: clamp(4em, 15vw, 10em);
     margin-bottom: 0;
     margin-top: 0;
-    color: #6b6b6b;
+    color: #ffffff;
     font-family: bitter;
 }
 
@@ -266,7 +269,7 @@ img {
 
 .herosub p {
     font-family: Arial, Helvetica, sans-serif;
-    color: #3d3d3d;
+    color: #ffffff;
     font-size: 1vw;
     font-size: clamp(1.5em, 2vw, 2.5em);
 }
@@ -286,7 +289,7 @@ main {
 /* FOOTER */
 
 .site-footer {
-    background-color: #ccc;
+    background-color: #ffa8a8;
     padding: 3em var(--space-unit);
 }
 
@@ -540,10 +543,10 @@ main {
 
 .projects {
     --base-grid: 8px;
-    --colour-background: rgb(207, 207, 207);
-    --colour-background-undercard: rgb(182, 182, 182);
-    --colour-background-folded: rgb(228, 228, 228);
-    --colour-background-stripes: rgb(231, 218, 213);
+    --colour-background: rgb(255, 255, 255);
+    --colour-background-undercard: rgb(255, 255, 255);
+    --colour-background-folded: rgb(255, 255, 255);
+    --colour-background-stripes: rgb(255, 255, 255);
     --colour-text: #6c6565;
     margin: calc(var(--base-grid)*2) auto calc(var(--base-grid)*5);
     display: grid;
@@ -701,7 +704,7 @@ main {
 /* SCROLLDOWN */
 
 .scrolldown {
-    --color: rgb(41, 41, 41);
+    --color: rgb(255, 255, 255);
     --sizeX: 30px;
     --sizeY: 50px;
     position: relative;
