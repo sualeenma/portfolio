@@ -262,9 +262,6 @@ img {
 
 .herosub {
     display: grid;
-    justify-content: left;
-    align-content: center;
-    /* padding-left: 2.5em; */
 }
 
 .herosub p {
@@ -272,8 +269,6 @@ img {
     color: #3d3d3d;
     font-size: 1vw;
     font-size: clamp(1.5em, 2vw, 2.5em);
-    /* padding-bottom: 7em; */
-    justify-content: center;
 }
 
 .herosub-sub p {
