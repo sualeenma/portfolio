@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    background-color: #ff8f8f;
+    background-color: #ffffff;
     color: #000000;
     margin: 0;
     font-family: 'Raleway', sans-serif;
@@ -39,7 +39,7 @@ h2 {
 }
 
 .site-footer h4 {
-    color: rgb(255, 255, 255);
+    color: rgb(38, 38, 38);
 }
 
 
@@ -60,7 +60,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #3e3e3e;
 }
 
 ul.mockups {
@@ -213,7 +213,7 @@ img {
     display: block;
     padding: 1em;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(50, 50, 50);
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
@@ -245,7 +245,7 @@ img {
     font-family: "Birthstone", cursive;
     font-weight: 400;
     font-style: normal;
-    color: #ffffff;
+    color: #383838;
     font-style: bold;
     justify-content: center;
 }
@@ -255,7 +255,7 @@ img {
     font-size: clamp(4em, 15vw, 10em);
     margin-bottom: 0;
     margin-top: 0;
-    color: #ffffff;
+    color: #696969;
     font-family: bitter;
 }
 
@@ -277,7 +277,7 @@ img {
 .heromain p,
 .herosub p {
     font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
+    color: #292929;
     font-size: 1vw;
     font-size: clamp(1.5em, 2vw, 2.5em);
     margin-top: 0;
@@ -298,7 +298,7 @@ main {
 /* FOOTER */
 
 .site-footer {
-    background-color: #ffa8a8;
+    background-color: #ededed;
     padding: 3em var(--space-unit);
 }
 
@@ -552,10 +552,10 @@ main {
 
 .projects {
     --base-grid: 8px;
-    --colour-background: rgb(255, 255, 255);
-    --colour-background-undercard: rgb(255, 255, 255);
-    --colour-background-folded: rgb(255, 255, 255);
-    --colour-background-stripes: rgb(255, 255, 255);
+    --colour-background: rgb(240, 240, 240);
+    --colour-background-undercard: rgb(240, 240, 240);
+    --colour-background-folded: rgb(240, 240, 240);
+    --colour-background-stripes: rgb(240, 240, 240);
     --colour-text: #6c6565;
     margin: calc(var(--base-grid)*2) auto calc(var(--base-grid)*5);
     display: grid;
@@ -713,7 +713,7 @@ main {
 /* SCROLLDOWN */
 
 .scrolldown {
-    --color: rgb(255, 255, 255);
+    --color: rgb(221, 221, 221);
     --sizeX: 30px;
     --sizeY: 50px;
     position: relative;
