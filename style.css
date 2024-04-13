@@ -70,7 +70,7 @@ ul.mockups {
 }
 
 ul.mockups li {
-    margin: 0 0 1em 0;
+    margin: 1em 0 0 0;
     padding: 0;
 }
 
@@ -111,6 +111,7 @@ section {
     left: -9999px;
 }
 
+
 .btn {
     display: inline-block;
     padding: .5em 1.5em;
@@ -126,6 +127,26 @@ section {
     box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
     transition: all .3s ease-out;
 }
+
+.project-btn {
+    margin: 4em 2em 0 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-btn .btn {
+    padding: .5em;
+    margin: 0;
+}
+
+.project-btn img {
+    max-width: 100px;
+    height: auto;
+    display: flex;
+    padding-bottom: .5em;
+}
+
+
 
 /* CONTAINER */
 .container {
@@ -288,6 +309,10 @@ img {
     font-size: 1vw;
     font-size: clamp(1em, 2vw, 1.2em);
     padding-bottom: 7em;
+}
+
+.hanging {
+    hanging-punctuation: first;
 }
 
 /* MAIN */
@@ -817,7 +842,6 @@ img {
 .home-grid {
     margin: 0;
     padding: 0;
-    list-style: none;
     display: grid;
     gap: 1em;
     grid-template-columns: 7fr 5fr;
@@ -827,6 +851,7 @@ img {
 .home-grid li {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 .home-grid li:nth-child(1) {
@@ -873,4 +898,35 @@ img {
 
 .title-right {
     margin-top: 3em;
+}
+
+/* SWIPER SECTION */
+
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+
+.sketch-swiper {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.swiper-button-prev {
+    margin-left: -10px;
+}
+
+.swiper-button-next {
+    margin-right: -10px;
+}
+
+html .swiper-navigation-size {
+    width: calc(35/ 44 * 27);
+    height: 35;
+    margin-top: calc(0px - (35/ 2));
 }

@@ -9,6 +9,9 @@
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- SWIPER JS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <!-- MAIN STYLES -->
     <link href="../style.css" rel="stylesheet" />
 </head>
@@ -34,19 +37,60 @@
                     <h1></h1>
                     <h3>Book Trilogy</h3>
                     <div class="herosub-sub">
-                        <p>"This is Love" is a series created by Phoebe Judge, Lauren Spohrer, and Nadia Wilson,
+                        <p class="hanging">&#8220;This is Love&#8221; is a series created by Phoebe Judge, Lauren
+                            Spohrer, and Nadia
+                            Wilson,
                             producers of the podcast "Criminal," which investigates stories about love. I selected a few
                             stories from it, repeatedly read and understood them, and then created corresponding book
-                            covers for each one.
+                            covers for each&nbsp;one.
                         </p>
                     </div>
-
                 </div>
             </div>
         </section>
 
+        <section class="sketch-swiper">
+            <div class="container">
+                <div class="title title-left">
+                    <span class="line"></span>
+                    <h3>Ideation</h3>
+                </div>
+                <div class="row">
+                    <div class="one-third">
+                        <h2>Sketching</h2>
+                        <p>When considering each story, I brainstormed various sketches focusing on elements that
+                            stood
+                            out or were significant. Emphasizing the most important aspects of the story, I aimed to
+                            pique the reader's interest while avoiding overwhelming them with too much detail,
+                            maintaining a mysterious atmosphere.
+                        </p>
+                    </div>
+                    <div class="two-thirds">
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <img src="../img/among-the-tree-sketches.png" alt="">
+                                </div>
+                                <div class="swiper-slide">Slide 2</div>
+                                <div class="swiper-slide">Slide 3</div>
 
-        <section id="sketch">
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="sketch">
             <div class="container">
                 <div class="title title-left">
                     <span class="line"></span>
@@ -73,7 +117,30 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
+
+        <!-- <section class="slider">
+            Slider main container
+            <div class="swiper">
+                Additional required wrapper
+                <div class="swiper-wrapper">
+                    Slides
+                    <div class="swiper-slide">
+                        <img src="../img/among-the-tree-sketches.png" alt="">
+                    </div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+
+                </div>
+                If we need pagination
+                <div class="swiper-pagination"></div>
+
+                If we need navigation buttons
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+        </section> -->
 
 
 
@@ -95,6 +162,11 @@
                     <li><a href="#"><img src="../img/into-the-ice-mockup.jpg" alt=""></a></li>
                 </ul>
             </div>
+        </section>
+
+        <section class="project-btn">
+            <a href="#" class="btn">&#171; Book Trilogy</a>
+            <a href="#" class="btn">Magazine<br />Layout &#187;</a>
         </section>
     </main>
 
@@ -133,6 +205,13 @@
             </section>
         </div>
     </footer>
+
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="../js/script.js"></script>
+
 </body>
 
 </html>
