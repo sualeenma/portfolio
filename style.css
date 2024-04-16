@@ -651,7 +651,7 @@ main {
 }
 
 .project-content {
-    background-color: var(--colour-background);
+    /* background-color: var(--colour-background); */
     color: var(--colour-text);
     position: absolute;
     top: 0;
