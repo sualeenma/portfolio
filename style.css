@@ -115,16 +115,13 @@ section {
 .btn {
     display: inline-block;
     padding: .5em 1.5em;
-    border: solid 1px #090b08;
     transition: all .3s ease-in;
 }
 
 .btn:hover,
 .btn:focus {
     transform: translate(0px, -2px);
-    -webkit-box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
     transition: all .3s ease-out;
 }
 
@@ -132,17 +129,23 @@ section {
     margin: 4em 2em 0 2em;
     display: flex;
     justify-content: space-between;
+
 }
 
 .project-btn .btn {
     padding: .5em;
     margin: 0;
+    white-space: nowrap;
+}
+
+.project-btn .btn:last-child img {
+    margin-left: auto;
 }
 
 .project-btn img {
     max-width: 100px;
     height: auto;
-    display: flex;
+    display: block;
     padding-bottom: .5em;
 }
 
@@ -903,8 +906,19 @@ img {
 /* SWIPER SECTION */
 
 .swiper {
-    width: 600px;
-    height: 300px;
+    /* width: 600px; */
+    /* height: 300px; */
+    /* max-height: 80svh; */
+    border: 1px solid red;
+}
+
+.swiper-wrapper {}
+
+
+.swiper-slide {
+    padding: 0 3em 3em 3em;
+    border: 1px solid green;
+
 }
 
 .sketch-swiper {
@@ -918,11 +932,11 @@ img {
 }
 
 .swiper-button-prev {
-    margin-left: -10px;
+    /* margin-left: -10px; */
 }
 
 .swiper-button-next {
-    margin-right: -10px;
+    /* margin-right: -10px; */
 }
 
 html .swiper-navigation-size {
