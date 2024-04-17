@@ -552,7 +552,7 @@ main {
     background-color: transparent;
 }
 
-.contact-wrapper a.contact-footer:hover i {}
+/* .contact-wrapper a.contact-footer:hover i {} */
 
 .contact-wrapper a {
     margin-right: 2em;
@@ -912,20 +912,19 @@ img {
 
 /* SWIPER SECTION */
 
-.swiper {
-    /* width: 600px; */
-    /* height: 300px; */
-    /* max-height: 80svh; */
+/* .swiper {
+    width: 600px;
+    height: 300px;
+    max-height: 80svh;
     border: 1px solid red;
-}
+} */
 
-.swiper-wrapper {}
+/* .swiper-wrapper {} */
 
 
 .swiper-slide {
     padding: 0 3em 3em 3em;
-    border: 1px solid green;
-
+    /* border: 1px solid green; */
 }
 
 .sketch-swiper {
@@ -938,13 +937,13 @@ img {
     color: rgba(0, 0, 0, 0.75);
 }
 
-.swiper-button-prev {
-    /* margin-left: -10px; */
-}
+/* .swiper-button-prev {
+    margin-left: -10px;
+} */
 
-.swiper-button-next {
-    /* margin-right: -10px; */
-}
+/* .swiper-button-next {
+    margin-right: -10px;
+} */
 
 html .swiper-navigation-size {
     width: calc(35/ 44 * 27);
