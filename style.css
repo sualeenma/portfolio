@@ -132,6 +132,13 @@ section {
 
 }
 
+.project-btn .container {
+    justify-content: space-between;
+    width: 1000px;
+    display: flex;
+}
+
+
 .project-btn .btn {
     padding: .5em;
     margin: 0;
@@ -635,7 +642,7 @@ main {
     perspective: 1000px;
 }
 
-.projects a:after {
+/* .projects a:after {
     content: "";
     position: absolute;
     top: 50%;
@@ -648,7 +655,7 @@ main {
     background-color: var(--colour-background);
     opacity: 0;
     transition: opacity .5s ease-in, transform .3s ease-in-out 0ms;
-}
+} */
 
 .project-content {
     /* background-color: var(--colour-background); */
