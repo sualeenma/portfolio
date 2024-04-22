@@ -590,7 +590,7 @@ main {
     --colour-background-undercard: rgb(255, 255, 255);
     --colour-background-folded: rgb(240, 240, 240);
     --colour-background-stripes: rgb(240, 240, 240);
-    --colour-text: #6c6565;
+    --colour-text: #343434;
     margin: calc(var(--base-grid)*2) auto calc(var(--base-grid)*5);
     display: grid;
     grid-row-gap: calc(var(--base-grid)*8);
