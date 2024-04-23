@@ -20,6 +20,7 @@ html {
 body {
     background-color: #f1fffd;
     background-image: url("img/bg-organic.png");
+    background-size: 100%;
     color: #000000;
     margin: 0;
     font-family: 'Raleway', sans-serif;
@@ -586,7 +587,7 @@ main {
 
 .projects {
     --base-grid: 8px;
-    --colour-background: rgb(71, 71, 71);
+    --colour-background: rgb(255, 255, 255);
     --colour-background-undercard: rgb(255, 255, 255);
     --colour-background-folded: rgb(240, 240, 240);
     --colour-background-stripes: rgb(240, 240, 240);
@@ -868,14 +869,21 @@ html .swiper-navigation-size {
     margin-bottom: 10em;
     margin-left: auto;
     margin-right: auto;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 }
 
 .rotating-image {
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    left: 8px;
+    left: 8px; */
     z-index: 2;
     animation: spin 10s infinite linear;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 @keyframes spin {
@@ -885,5 +893,30 @@ html .swiper-navigation-size {
 
     100% {
         transform: rotate(360deg);
+    }
+}
+
+.scrolldown-arrow {
+    width: 20px;
+    height: 30px;
+    background-color: #000;
+    grid-column: 1;
+    grid-row: 1;
+    clip-path: polygon(100% 0%, 50% 100%, 1% 0%, 50% 15%);
+    animation: bounce 2s infinite both;
+    transform: translateY(-50%);
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-50%);
+    }
+
+    50% {
+        transform: translateY(50%);
+    }
+
+    100% {
+        transform: translateY(-50%);
     }
 }
