@@ -18,12 +18,12 @@ html {
 }
 
 body {
-    background-color: #f1fffd;
+    background-color: #eeeeee;
     /* background-image: url("img/bg-organic.png"); */
     background-size: 100%;
-    color: #000000;
+    color: #212121;
     margin: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: avenir;
     font-weight: 300;
 }
 
@@ -45,10 +45,10 @@ h2 {
 
 
 
-/* h4 {
-    font-family: hoefler;
-    font-size: clamp(0.3em, 7svw, 3em);
-} */
+h4 {
+    font-family: avenir;
+    color: rgb(49, 49, 49);
+}
 
 h6 {
     font-weight: 500;
@@ -57,6 +57,7 @@ h6 {
 p {
     max-width: 33em;
     line-height: 1.5;
+    font-family: avenir;
 }
 
 a {
