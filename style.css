@@ -19,7 +19,7 @@ html {
 
 body {
     background-color: #f1fffd;
-    background-image: url("img/bg-organic.png");
+    /* background-image: url("img/bg-organic.png"); */
     background-size: 100%;
     color: #000000;
     margin: 0;
@@ -162,6 +162,12 @@ section {
 /* CONTAINER */
 .container {
     max-width: 1900px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+.container-sub {
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 2em;
 }

@@ -9,6 +9,10 @@
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- SWIPER JS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
     <!-- MAIN STYLES -->
     <link href="../style.css" rel="stylesheet" />
 </head>
@@ -46,51 +50,70 @@
             </div>
         </section>
 
-
-        <section id="sketch">
-            <div class="container">
+        <section class="sketch-swiper">
+            <div class="container-sub">
                 <div class="title title-left">
                     <span class="line"></span>
                     <h3>Ideation</h3>
                 </div>
                 <div class="row">
-                    <div class="one-half">
+                    <div class="one-third">
                         <h2>Sketching</h2>
                         <p>Taking clarity of action and dynamic visuals as the primary focus, I experimented with
                             various sketches. Since the goal was to create four pictograms, I sketched different sports
                             and selected the ones with the most distinct style. After gathering them, I refined and
                             finalized the&nbsp;pictograms.
                         </p>
-
-
                     </div>
-                    <div class="one-half">
-                        <a href="mywebsite.html"><img src="../img/sketches-olympic-2.jpg" alt="" /></a>
+                    <div class="two-thirds">
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide"><img src="../img/olympic-sketches-1.png" alt="">
+                                </div>
+                                <div class="swiper-slide"><img src="../img/olympic-sketches-2.svg" alt="">
+                                </div>
+                                <div class="swiper-slide"><img src="../img/olympic-sketches-3.svg" alt="">
+                                </div>
+                                <div class="swiper-slide"><img src="../img/olympic-sketches-4.svg" alt="">
+                                </div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+    </main>
 
 
 
-        <section id="final">
-            <div class="container">
-                <div class="title title-right">
-                    <span class="line"></span>
-                    <h3>Finalizing</h3>
-                </div>
-                <h2>Final Result</h2>
-                <p>I created the basic poster for the Olympics using pictograms. The background of the poster is kept in
-                    light, neutral colors to ensure the focus remains on the central elements: the pictograms
-                    representing the sports and the Olympic logo.
-                </p>
 
-                <ul class="mockups">
-                    <li><a href="#"><img src="../img/olympic-poster-2.png" alt=""></a></li>
-                </ul>
+
+    <section id="final">
+        <div class="container">
+            <div class="title title-right">
+                <span class="line"></span>
+                <h3>Finalizing</h3>
             </div>
-            </div>
-        </section>
+            <h2>Final Result</h2>
+            <p>I created the basic poster for the Olympics using pictograms. The background of the poster is kept in
+                light, neutral colors to ensure the focus remains on the central elements: the pictograms
+                representing the sports and the Olympic logo.
+            </p>
+
+            <ul class="mockups">
+                <li><a href="#"><img src="../img/olympic-poster-2.jpg" alt=""></a></li>
+            </ul>
+        </div>
+        </div>
+    </section>
     </main>
 
 
@@ -113,6 +136,12 @@
             </section>
         </div>
     </footer>
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="../js/script.js"></script>
+
 </body>
 
 </html>
