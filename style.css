@@ -175,7 +175,8 @@ section {
 
 /* GLOBAL MEDIA */
 
-img {
+img,
+video {
     max-width: 100%;
     height: auto;
 }
@@ -824,18 +825,13 @@ img {
 
 /* SWIPER SECTION */
 
-/* .swiper {
-    width: 600px;
-    height: 300px;
-    max-height: 80svh;
-    border: 1px solid red;
-} */
+.swiper {}
 
-/* .swiper-wrapper {} */
+.swiper-wrapper {}
 
 
 .swiper-slide {
-    padding: 0 3em 3em 3em;
+    padding: 0 6em 3em 6em;
     /* border: 1px solid green; */
 }
 
@@ -850,6 +846,10 @@ img {
 }
 
 /* .swiper-button-prev {
+    left: -20px;
+} */
+
+/* .swiper-button-prev {
     margin-left: -10px;
 } */
 
@@ -862,6 +862,12 @@ html .swiper-navigation-size {
     height: 35;
     margin-top: calc(0px - (35/ 2));
 }
+
+
+.swiper-pagination-bullet-active {
+    background-color: #000;
+}
+
 
 /* SCROLLDOWN */
 
