@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    background-color: #eeeeee;
+    background-color: #efefef;
     /* background-image: url("img/bg-organic.png"); */
     background-size: 100%;
     color: #212121;
@@ -46,6 +46,11 @@ h2 {
 
 
 h4 {
+    font-family: avenir;
+    color: rgb(49, 49, 49);
+}
+
+h5 {
     font-family: avenir;
     color: rgb(49, 49, 49);
 }
@@ -307,6 +312,12 @@ video {
     font-family: hoefler;
     padding-top: 0.4em;
     justify-content: center;
+}
+
+.hero h5 {
+    font-size: clamp(0.7em, 3vw, 1em);
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .herosub {
@@ -824,11 +835,6 @@ img {
 }
 
 /* SWIPER SECTION */
-
-.swiper {}
-
-.swiper-wrapper {}
-
 
 .swiper-slide {
     padding: 0 6em 3em 6em;
