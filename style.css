@@ -81,6 +81,10 @@ ul.mockups li {
     padding: 0;
 }
 
+li {
+    list-style: none;
+}
+
 section {
     padding: 0;
 }
@@ -176,7 +180,7 @@ section {
     max-width: 1500px;
     margin: 0 auto;
     padding: 0 2em;
-    display: flex;
+    /* display: flex; */
 }
 
 /* GLOBAL MEDIA */
@@ -312,14 +316,18 @@ video {
     margin-top: 0.5em;
     color: #252525;
     font-family: hoefler;
-    padding-top: 0.4em;
+    /* padding-top: 0.4em; */
     justify-content: center;
 }
 
 .hero h5 {
     font-size: clamp(0.7em, 3vw, 1em);
-    margin-bottom: 0;
-    margin-top: 0;
+    /* margin-bottom: 0;
+    margin-top: 0; */
+}
+
+.heromain-sub .row {
+    align-items: center;
 }
 
 .herosub {
@@ -340,7 +348,13 @@ video {
     font-size: 1vw;
     font-size: clamp(1em, 2vw, 1.2em);
     padding-bottom: 7em;
+    /* width: 100%; */
 }
+
+.heromain-sub .row .mini-info {
+    width: 10em;
+}
+
 
 .hanging {
     hanging-punctuation: first;
@@ -419,6 +433,121 @@ main {
     .two-thirds.centered {
         grid-column-start: 3;
     }
+}
+
+/* Initital 12 Column Set-up  */
+.row>.cols-1 {
+    grid-column: auto / span 1;
+}
+
+.row>.cols-2 {
+    grid-column: auto / span 2;
+}
+
+.row>.cols-3 {
+    grid-column: auto / span 3;
+}
+
+.row>.cols-4 {
+    grid-column: auto / span 4;
+}
+
+.row>.cols-5 {
+    grid-column: auto / span 5;
+}
+
+.row>.cols-6 {
+    grid-column: auto / span 6;
+}
+
+.row>.cols-7 {
+    grid-column: auto / span 7;
+}
+
+.row>.cols-8 {
+    grid-column: auto / span 8;
+}
+
+.row>.cols-9 {
+    grid-column: auto / span 9;
+}
+
+.row>.cols-10 {
+    grid-column: auto / span 10;
+}
+
+.row>.cols-11 {
+    grid-column: auto / span 11;
+}
+
+.row>.cols-12 {
+    grid-column: auto / span 12;
+}
+
+/* Centered Helper Class for Even-width Columns Only  */
+.row>.cols-2.centered {
+    grid-column-start: 6;
+}
+
+.row>.cols-4.centered {
+    grid-column-start: 5;
+}
+
+.row>.cols-6.centered {
+    grid-column-start: 4;
+}
+
+.row>.cols-8.centered {
+    grid-column-start: 3;
+}
+
+.row>.cols-10.centered {
+    grid-column-start: 2;
+}
+
+/* Push Helper Classes for all Columns  */
+.row>.pushed-1 {
+    grid-column-start: 2;
+}
+
+.row>.pushed-2 {
+    grid-column-start: 3;
+}
+
+.row>.pushed-3 {
+    grid-column-start: 4;
+}
+
+.row>.pushed-4 {
+    grid-column-start: 5;
+}
+
+.row>.pushed-5 {
+    grid-column-start: 6;
+}
+
+.row>.pushed-6 {
+    grid-column-start: 7;
+}
+
+.row>.pushed-7 {
+    grid-column-start: 8;
+}
+
+.row>.pushed-8 {
+    grid-column-start: 9;
+}
+
+.row>.pushed-9 {
+    grid-column-start: 10;
+}
+
+.row>.pushed-10 {
+    grid-column-start: 11;
+}
+
+.row>.pushed-11 {
+    grid-column-start: 12;
 }
 
 /* PROJECT LIST */
