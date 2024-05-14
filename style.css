@@ -176,6 +176,7 @@ section {
     max-width: 1500px;
     margin: 0 auto;
     padding: 0 2em;
+    display: flex;
 }
 
 /* GLOBAL MEDIA */
@@ -280,9 +281,10 @@ video {
 }
 
 .heromain-sub {
-    display: grid;
+    /* display: grid;
     justify-content: center;
-    align-content: center;
+    align-content: center; */
+    /* place-items: center; */
 }
 
 .hero h1 {
