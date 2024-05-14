@@ -225,6 +225,15 @@ video {
 
 }
 
+.centered {
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    padding-top: 3em;
+}
+
 
 
 
@@ -975,6 +984,7 @@ img {
 .sketch-swiper {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .swiper-button-prev,
