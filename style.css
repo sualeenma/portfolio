@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900');
 @import url("https://use.typekit.net/dmf5nmt.css");
 @import url("https://use.typekit.net/dmf5nmt.css");
-
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
 
 
 /* VARIABLES */
@@ -18,41 +18,42 @@ html {
 }
 
 body {
-    background-color: #efefef;
+    background-color: #fffef6;
     /* background-image: url("img/bg-organic.png"); */
     background-size: 100%;
-    color: #212121;
+    color: #001f3b;
     margin: 0;
     font-family: avenir;
     font-weight: 300;
 }
 
 h1 {
-    font-size: 1.7em;
-    font-weight: 800;
-    font-family: hoefler;
+    font-size: em;
+    font-family: "Forum", serif;
+    font-weight: 400;
     font-style: normal;
 }
 
 h2 {
-    font-family: hoefler;
-    font-size: clamp(0.3em, 7svw, 3em);
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .site-footer h4 {
-    color: rgb(38, 38, 38);
+    color: #001f3b;
 }
 
 
 
 h4 {
     font-family: avenir;
-    color: rgb(49, 49, 49);
+    color: #001f3b;
 }
 
 h5 {
     font-family: avenir;
-    color: rgb(49, 49, 49);
+    color: #001f3b;
 }
 
 h6 {
@@ -250,8 +251,8 @@ video {
 
 .site-logo {
     padding: 1em;
-    font-size: 1.5em;
-    font-weight: 700;
+    font-size: 1em;
+    font-weight: 100;
 }
 
 /* SITE NAV */
@@ -261,7 +262,7 @@ video {
     margin: 0;
     position: relative;
     list-style: none;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .site-nav ul {
@@ -272,9 +273,8 @@ video {
     display: block;
     padding: 1em;
     text-decoration: none;
-    color: rgb(50, 50, 50);
+    color: #00294d;
     font-family: avenir;
-    font-weight: 400;
 }
 
 /* HERO */
@@ -282,8 +282,8 @@ video {
 .hero {
     padding: var(--space-unit) 0;
     align-content: center;
-    padding-top: 10em;
-    padding-bottom: 10em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .heromain {
@@ -301,29 +301,28 @@ video {
 }
 
 .hero h1 {
-    font-size: clamp(2em, 10vw, 6em);
-    margin-top: 1em;
+    font-size: clamp(3em, 13vw, 7em);
     margin-bottom: 0;
     line-height: .8;
     font-family: hoefler;
-    color: #383838;
+    color: #175165;
     justify-content: left;
 }
 
-.hero h2 {
-    font-size: clamp(2em, 10vw, 6em);
+/* .hero h2 {
+    font-size: clamp(5em, 13vw, 8em);
     margin-bottom: 0;
     margin-top: 0;
     color: #383838;
     font-family: hoefler;
-}
+} */
 
 .hero h3 {
     font-size: 5vw;
-    font-size: clamp(4em, 13vw, 8em);
+    font-size: clamp(4em, 13vw, 5em);
     margin-bottom: 0;
     margin-top: 0.5em;
-    color: #252525;
+    color: #175165;
     font-family: hoefler;
     /* padding-top: 0.4em; */
     justify-content: center;
@@ -345,15 +344,14 @@ video {
 
 .heromain p,
 .herosub p {
-    font-family: avenir;
-    color: #292929;
-    font-size: 1vw;
-    font-size: clamp(0.8em, 1.5vw, 2em);
-    margin-top: 0;
+    font-family: forum;
+    color: #175165;
+    font-size: clamp(2em, 1.5vw, 4em);
+    margin-top: 1em;
 }
 
 .herosub-sub p {
-    color: #1c1c1c;
+    color: #175165;
     font-size: 1vw;
     font-size: clamp(1em, 2vw, 1.2em);
     padding-bottom: 7em;
@@ -377,7 +375,7 @@ main {
 /* FOOTER */
 
 .site-footer {
-    background-color: #fff8f8;
+    background-color: #fffef9;
     padding: 3em var(--space-unit);
 }
 
@@ -1025,7 +1023,7 @@ html .swiper-navigation-size {
     width: var(--sizeX);
     height: var(--sizeY);
     margin-left: var(sizeX / 2);
-    margin-top: 10em;
+    /* margin-top: 10em; */
     margin-bottom: 10em;
     margin-left: auto;
     margin-right: auto;
@@ -1059,7 +1057,7 @@ html .swiper-navigation-size {
 .scrolldown-arrow {
     width: 20px;
     height: 30px;
-    background-color: #000;
+    background-color: #175165;
     grid-column: 1;
     grid-row: 1;
     clip-path: polygon(100% 0%, 50% 100%, 1% 0%, 50% 15%);
