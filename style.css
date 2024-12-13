@@ -911,6 +911,13 @@ img {
     height: auto;
 }
 
+.hero-projects {
+    display: flex;
+    gap: 1em;
+    height: 100%;
+}
+
+
 .home-grid {
     margin: 0;
     padding: 0;
