@@ -283,7 +283,6 @@ video {
     padding: var(--space-unit) 0;
     align-content: center;
     padding-top: 1em;
-    padding-bottom: 1em;
 }
 
 .heromain {
@@ -369,7 +368,7 @@ video {
 
 /* MAIN */
 main {
-    padding-bottom: 6em;
+    /* padding-bottom: 6em; */
 }
 
 /* FOOTER */
@@ -913,8 +912,15 @@ img {
 
 .hero-projects {
     display: flex;
-    gap: 1em;
-    height: 100%;
+    gap: 3em;
+    margin-top: 6em;
+
+}
+
+.hero-image {
+    width: 1000px;
+    height: 1000px;
+    object-fit: cover;
 }
 
 
@@ -1026,13 +1032,12 @@ html .swiper-navigation-size {
 .scrolldown {
     --sizeX: 200px;
     --sizeY: 200px;
-    position: relative;
+    position: absolute;
     width: var(--sizeX);
     height: var(--sizeY);
     margin-left: var(sizeX / 2);
     /* margin-top: 10em; */
-    margin-bottom: 10em;
-    margin-left: auto;
+    margin-left: 38%;
     margin-right: auto;
     display: grid;
     justify-items: center;
@@ -1070,6 +1075,7 @@ html .swiper-navigation-size {
     clip-path: polygon(100% 0%, 50% 100%, 1% 0%, 50% 15%);
     animation: bounce 2s infinite both;
     transform: translateY(-50%);
+
 }
 
 @keyframes bounce {
