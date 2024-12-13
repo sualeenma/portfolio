@@ -923,6 +923,10 @@ img {
     object-fit: cover;
 }
 
+.about-image {
+    justify-content: center;
+    display: block;
+}
 
 .home-grid {
     margin: 0;
@@ -1090,4 +1094,35 @@ html .swiper-navigation-size {
     100% {
         transform: translateY(-50%);
     }
+}
+
+.home-about {
+    display: flex;
+    justify-content: center;
+    gap: 7em;
+}
+
+.above-home-about p {
+    font-family: forum;
+    color: #175165;
+    font-size: clamp(2em, 1.5vw, 4em);
+}
+
+.above-home-about h1 {
+    font-family: forum;
+    color: #175165;
+    font-size: clamp(5em, 1.5vw, 7em);
+}
+
+.home-about h2 {
+    margin-top: 3em;
+    font-family: forum;
+    color: #175165;
+    font-size: clamp(3em, 1.5vw, 5em);
+}
+
+.home-about p {
+    font-family: forum;
+    color: #175165;
+    font-size: clamp(1em, 1.5vw, 2em);
 }
