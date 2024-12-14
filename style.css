@@ -21,7 +21,7 @@ body {
     background-color: #fffef6;
     /* background-image: url("img/bg-organic.png"); */
     background-size: 100%;
-    color: #001f3b;
+    color: #316b76;
     margin: 0;
     font-family: avenir;
     font-weight: 300;
@@ -30,7 +30,7 @@ body {
 h1 {
     font-size: em;
     font-family: "Forum", serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -41,14 +41,14 @@ h2 {
 }
 
 .site-footer h4 {
-    color: #001f3b;
+    color: #175165;
 }
 
 
 
 h4 {
     font-family: avenir;
-    color: #001f3b;
+    color: #316b76;
 }
 
 h5 {
@@ -68,7 +68,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #3e3e3e;
+    color: #175165;
 }
 
 ul.mockups {
@@ -300,10 +300,10 @@ video {
 }
 
 .hero h1 {
-    font-size: clamp(3em, 13vw, 7em);
+    font-size: clamp(4em, 13vw, 8em);
     margin-bottom: 0;
-    line-height: .8;
-    font-family: hoefler;
+    line-height: 1;
+    font-family: "Forum", serif;
     color: #175165;
     justify-content: left;
 }
@@ -322,7 +322,9 @@ video {
     margin-bottom: 0;
     margin-top: 0.5em;
     color: #175165;
-    font-family: hoefler;
+    font-family: "Forum", serif;
+    font-weight: 500;
+    font-style: normal;
     /* padding-top: 0.4em; */
     justify-content: center;
 }
@@ -374,7 +376,7 @@ main {
 /* FOOTER */
 
 .site-footer {
-    background-color: #fffef9;
+    background-color: #fffef6;
     padding: 3em var(--space-unit);
 }
 
@@ -739,15 +741,13 @@ main {
 }
 
 
-
-
 .projects {
     --base-grid: 8px;
-    --colour-background: rgb(255, 255, 255);
-    --colour-background-undercard: rgb(255, 255, 255);
+    --colour-background: #316b76;
+    --colour-background-undercard: #fffef6;
     --colour-background-folded: rgb(240, 240, 240);
     --colour-background-stripes: rgb(240, 240, 240);
-    --colour-text: #343434;
+    --colour-text: #316b76;
     margin: calc(var(--base-grid)*2) auto calc(var(--base-grid)*5);
     display: grid;
     grid-row-gap: calc(var(--base-grid)*8);
